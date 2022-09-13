@@ -5,7 +5,7 @@ export default () => {
 
   return (
     <View>
-      我的
+      分类
     </View>
   )
 }

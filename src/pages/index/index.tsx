@@ -1,12 +1,13 @@
+
 import { View } from '@tarojs/components'
-import { OsIcon } from 'ossaui'
+import { OsButton } from 'ossaui'
 import './index.scss'
 
 export default () => {
 
   return (
     <View>
-      {/* <OsIcon type='richscan' /> */}
+      <OsButton type='primary'>这是一个按钮</OsButton>
     </View>
   )
 }

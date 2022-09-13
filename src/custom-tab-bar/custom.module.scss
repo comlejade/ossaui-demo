@@ -1,0 +1,8 @@
+
+@import '../styles/index.scss';
+
+.container {
+  @include safeBtm;
+  background-color: #FAFAFA;
+}
+

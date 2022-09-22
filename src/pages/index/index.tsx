@@ -1,13 +1,14 @@
 
 import { View } from '@tarojs/components'
-import { OsButton } from 'ossaui'
+import { OsInput } from 'ossaui'
+import { useState } from 'react'
 import './index.scss'
 
 export default () => {
-
+  const [concat, setConcat] = useState('')
   return (
     <View>
-      <OsButton type='primary'>这是一个按钮</OsButton>
+      <OsInput label='收货人' placeholder='请填写收货人姓名' value={concat} onChange={setConcat} />
     </View>
   )
 }
